@@ -1,0 +1,273 @@
+body {
+    background-color: #2B2C30;
+	font-family: 'Ubuntu', 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+
+	-webkit-transition: all .3s ease-in 0s;
+	   -moz-transition: all .3s ease-in 0s;
+		 -o-transition: all .3s ease-in 0s;
+			transition: all .3s ease-in 0s;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #6CB670;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: oswald;
+    font-weight: 400;
+}
+
+.kill-margin-bottom {
+	margin-bottom: 0 !important;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 0px 10px;
+	border-radius: 0;
+    margin-top: 15px;
+
+	-webkit-transition: all .5s ease-in 0s;
+	   -moz-transition: all .5s ease-in 0s;
+		 -o-transition: all .5s ease-in 0s;
+			transition: all .5s ease-in 0s;
+}
+
+.btn:focus {
+	color: #ddd;
+}
+
+.btn-green {
+    background-color: #6cb670;
+}
+
+.btn-green:focus,
+.btn-green:hover {
+    background-color: #2F383D;
+	color: #fff;
+}
+
+.btn-transparent {
+	border: 1px solid #4e595f;
+}
+
+.btn-transparent:focus {
+    background-color: transparent;
+    border-color: #6cb670;
+}
+
+.btn-transparent:hover {
+    background-color: #6cb670;
+	border: 1px solid transparent;
+    color: #fff;
+}
+
+.form-control {
+	background-color: #2f383d;
+	border-radius: 0;
+	padding: 5px 10px;
+	border: 0 none;
+	color: #ddd;
+}
+
+.form-control::-webkit-input-placeholder { /*  Chrome, Safari, Opera  */
+   color: #ddd;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #ddd;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #ddd;
+}
+
+.form-control:-ms-input-placeholder {  /*  Internet Explorer  */
+   color: #ddd;
+}
+.border {
+    border-top: 1px solid #fff;
+    height: 1px;
+    margin: 15px auto 0;
+    position: relative;
+    width: 35%;
+}
+
+.border:before {
+    background-color: #fff;
+    border: 1px ridge #fff;
+    content: "";
+    height: 10px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -5px;
+    width: 40px;
+}
+
+.title {
+    padding-bottom: 60px;
+}
+
+.title h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #fff;
+}
+
+.color {
+    color: #6CB670;
+}
+
+.sub-title {
+    padding: 0 0 50px;
+}
+
+.sub-title > h3 {
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    display: inline-block;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.btn.active:focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+}
+
+.bg-one {
+    background-color: #333439;
+    padding-bottom: 5%;
+}
+
+.parallax-section {
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.request {
+	background-color: #2b2c30;
+  padding:15px;
+  margin:5px;
+  float: left;;
+  width: 300px;
+  height: 350px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.request-title {
+  background-color: #2b2c30;
+  padding: 30px 0 20px;
+}
+
+.request-title > h3 {
+    color: #6cb670;
+    font-family: Oswald;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.request-title > p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.request-title .value {
+	color: #6cb670;
+	font-size: 30px;
+}
+
+.request article {
+    border-top: 4px solid #3F4045;
+    font-weight: 400;
+    padding:15px;
+    margin:5px;
+    border-style: double;
+    border-width: 10px;
+}
+.request li {
+  font-weight: 200;
+}
+
+.request li:last-child {
+    border-bottom: 2px solid #3F4045;
+}
+
+.request li:nth-child(2n) {
+    background-color: #2F3035;
+}
+
+.request input {
+    text-transform: uppercase;
+	margin: 20px 0;
+}
+
+
+/*=================================================================
+	Order
+==================================================================*/
+
+.order-form {
+	margin-bottom: 40px;
+  width: 50%;
+}
+
+.order-form .form-control {
+	background-color: transparent;
+	border: 2px solid #4e595f;
+	height: 38px;
+}
+
+.order-form .form-control select {
+  background-color: transparent;
+}
+
+.order-form input:hover,
+.order-form textarea:hover,
+#order-submit:hover {
+    border-color: #6CB670;
+}
+
+#order-submit {
+	border: 1px solid #4e595f;
+	padding: 12px 0;
+	width: 100%;
+	margin: 0;
+}
+
+.order-form textarea.form-control {
+    padding: 10px;
+    height: 120px;
+}
+
+.order-info p {
+	margin-bottom: 25px;
+}
+.order-section {
+    margin-left: 5%;
+    margin-top: 5%;
+}
